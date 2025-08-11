@@ -1,0 +1,34 @@
+{
+  "name": "mbti-alchemist-mastra",
+  "version": "1.0.0",
+  "description": "Simple MBTI diagnosis agent built with Mastra.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukoga/mbti-alchemist-mastra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yukoga/mbti-alchemist-mastra/issues"
+  },
+  "homepage": "https://github.com/yukoga/mbti-alchemist-mastra#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "mastra": "^0.10.20",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.4",
+    "@mastra/core": "^0.13.1",
+    "zod": "^3.25.76"
+  }
+}
